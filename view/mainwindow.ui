@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>controller_text_state</class>
+ <widget class="QMainWindow" name="controller_text_state">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1279</width>
+    <height>718</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1751</width>
+      <height>1091</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>21</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sumbitButton">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-30</y>
+      <width>291</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; color:#00ff4c;&quot;&gt;Product&lt;/span&gt;&lt;span style=&quot; font-size:36pt; color:#ff0300;&quot;&gt;Tracker&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>1731</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>981</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>60</pointsize>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Product</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>170</y>
+      <width>20</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>290</y>
+      <width>831</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>831</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="productMenu">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>130</y>
+      <width>821</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+alternate-background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="addTab">
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;hello&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <attribute name="title">
+      <string>Add</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Add a new item:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="nameLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>50</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="useByDateLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>50</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>day-month-year</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Name:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>20</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Use by date:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="addNewProductButton">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>50</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nameError">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>90</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 25, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="useByDateError">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>90</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 25, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="removeTab">
+     <attribute name="title">
+      <string>Remove</string>
+     </attribute>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>20</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Record IDentifier (RID)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="recordIdentifierError">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>50</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Remove existing item:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="removeByRecordIdentifierButton">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>50</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Remove</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ridError">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>90</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 25, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>170</y>
+      <width>16</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>340</y>
+      <width>831</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>290</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sort by:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="sortByXDropdown">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>300</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Use by date (ASC)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Date created (ASC)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Name(ASC)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Use by date (DESC)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Date created (DESC)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Name(DESC)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>290</y>
+      <width>581</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Please navigate below by scrolling horizontally and vertically, depending on the size of the fields.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+    </property>
+   </widget>
+   <zorder>graphicsView</zorder>
+   <zorder>sumbitButton</zorder>
+   <zorder>line</zorder>
+   <zorder>label</zorder>
+   <zorder>line_5</zorder>
+   <zorder>productMenu</zorder>
+   <zorder>line_6</zorder>
+   <zorder>line_3</zorder>
+   <zorder>line_2</zorder>
+   <zorder>tableView</zorder>
+   <zorder>label_6</zorder>
+   <zorder>sortByXDropdown</zorder>
+   <zorder>label_9</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
